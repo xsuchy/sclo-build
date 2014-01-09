@@ -10,6 +10,7 @@ URL:		https://github.com/xsuchy/sclo-build
 # cd sclo-build
 # tito build --tgz
 Source0:	%{name}-%{version}.tar.gz
+BuildArch:	noarch
 
 %description
 Define macros for building software collection into
