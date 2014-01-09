@@ -1,7 +1,7 @@
-Name:		sclo-build
-Version:	4
-Release:	1%{?dist}
-Summary:	Macros for collections for softwarecollections.org
+Name:       sclo-build
+Version:    4
+Release:    1%{?dist}
+Summary:    Macros for collections for softwarecollections.org
 
 Group:		Development/Tools
 License:	MIT
@@ -9,10 +9,10 @@ URL:		https://github.com/xsuchy/sclo-build
 # git clone git@github.com:xsuchy/sclo-build.git
 # cd sclo-build
 # tito build --tgz
-Source0:	%{name}-%{version}.tar.gz
-BuildArch:	noarch
+Source0:    %{name}-%{version}.tar.gz
+BuildArch:  noarch
 %if 0%{?rhel} && 0%{?rhel} < 6
-BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
+BuildRoot:  %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 %endif
 
 %description
