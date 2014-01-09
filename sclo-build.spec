@@ -1,6 +1,6 @@
 Name:		sclo-build
-Version:	0
-Release:	0%{?dist}
+Version:	1
+Release:	1%{?dist}
 Summary:	Macros for collections for softwarecollections.org
 
 Group:		Development/Tools
@@ -34,4 +34,7 @@ install -p macros.sclo %{buildroot}%{_sysconfdir}/rpm/
 
 
 %changelog
+* Thu Jan 09 2014 Miroslav Suchý <msuchy@redhat.com> 1-1
+- initial release
+
 
