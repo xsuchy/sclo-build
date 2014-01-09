@@ -27,7 +27,7 @@ softwarecollections.org.
 %install
 mkdir -p %{buildroot}%{_sysconfdir}/rpm/
 %if 0%{?rhel} && 0%{?rhel} < 7
-install -p macros.sclo.el %{buildroot}%{_sysconfdir}/rpm/
+install -p macros.sclo.el %{buildroot}%{_sysconfdir}/rpm/macros.sclo
 %else
 install -p macros.sclo %{buildroot}%{_sysconfdir}/rpm/
 %endif
