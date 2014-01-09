@@ -1,5 +1,5 @@
 Name:		sclo-build
-Version:	3
+Version:	4
 Release:	1%{?dist}
 Summary:	Macros for collections for softwarecollections.org
 
@@ -50,6 +50,10 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Jan 09 2014 Miroslav Suchý <msuchy@redhat.com> 4-1
+- define and clean buildroot on el5 (msuchy@redhat.com)
+- scl_vendor is not defined neither in el7 (msuchy@redhat.com)
+
 * Thu Jan 09 2014 Miroslav Suchý <msuchy@redhat.com> 3-1
 - fix path on el6 (msuchy@redhat.com)
 
