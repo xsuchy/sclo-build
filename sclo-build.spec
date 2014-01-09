@@ -3,9 +3,9 @@ Version:    4
 Release:    1%{?dist}
 Summary:    Macros for collections for softwarecollections.org
 
-Group:		Development/Tools
+Group:      Development/Tools
 License:	MIT
-URL:		https://github.com/xsuchy/sclo-build
+URL:        https://github.com/xsuchy/sclo-build
 # git clone git@github.com:xsuchy/sclo-build.git
 # cd sclo-build
 # tito build --tgz
