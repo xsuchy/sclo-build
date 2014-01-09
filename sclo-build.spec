@@ -1,5 +1,5 @@
 Name:		sclo-build
-Version:	1
+Version:	2
 Release:	1%{?dist}
 Summary:	Macros for collections for softwarecollections.org
 
@@ -39,6 +39,10 @@ install -p macros.sclo %{buildroot}%{_sysconfdir}/rpm/
 
 
 %changelog
+* Thu Jan 09 2014 Miroslav Suchý <msuchy@redhat.com> 2-1
+- rhel does not have scl_vendor macro (yet) (msuchy@redhat.com)
+- package is noarch (msuchy@redhat.com)
+
 * Thu Jan 09 2014 Miroslav Suchý <msuchy@redhat.com> 1-1
 - initial release
 
