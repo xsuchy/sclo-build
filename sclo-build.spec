@@ -1,5 +1,5 @@
 Name:		sclo-build
-Version:	1
+Version:	0
 Release:	0%{?dist}
 Summary:	Macros for collections for softwarecollections.org
 
